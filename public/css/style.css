@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f2f4f6 !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+form.addTestionialsForm {
+    margin: 5rem auto;
+    padding: 3rem;
+    background-color: #fff;
+    width: 500px;
+}
+.inputElems {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.inputElems label {
+    text-transform: uppercase;
+}
+.inputElems {
+    margin-bottom: 1.3rem;
+}
+
+.inputElems input[type="text"],
+input[type="text"]:active {
+    padding: 0.5rem 5rem;
+    border: 1px solid #d8d8d8;
+    background-color: #efefef;
+}
+
+.inputElems textarea,
+textarea:focus {
+    border: 1px solid #d8d8d8;
+    background-color: #efefef;
+}
+
+form.addTestionialsForm input[type="submit"] {
+    padding: 0.5rem 4.4rem;
+    background-color: transparent;
+    font-weight: 700;
+    color: #ef942d;
+    border: 1px solid #ef942d;
+}
+
+/* Temognoiges list */
+.testimonials {
+    margin: 5rem auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+}
+.testimonials .temoignagesItemList {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.testimonials .temoignagesItemList .imgContainer {
+    width: 150px;
+}
+
+.testimonials .temoignagesItemList .imgContainer img {
+    width: 100%;
+}
+
+/* Testimonials List */
+.table-container {
+    margin: 5rem;
+}
+
+table {
+    background-color: transparent;
+}
+
+table tr {
+    cursor: pointer;
+}
+
+.table-container .media {
+    width: 50px;
+}
+
+.table-container form.customHandleForm {
+    margin: auto;
+    padding: 2rem;
+}
+
+.customColor {
+    color: #ef942d;
+}
+
+.btnCustomColor {
+    background-color: #ef942d !important;
+}
+
+.table-container .customHandleBtns {
+    display: flex;
+}
+
+.table-container .customHandleBtn {
+    background: transparent;
+    border: 0;
+}
+
+.components {
+    text-align: center;
+    display: none;
+}
