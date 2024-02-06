@@ -1,66 +1,62 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+![💻 PHP_Test](https://github.com/NosisAtlas/PHPTest/assets/71009594/21e18680-0142-464b-898b-5d2fc823d708)
+![Static Badge](https://img.shields.io/badge/Last%20commit%20--%20https%3A%2F%2Fgithub.com%2FNosisAtlas%2FPHPTest?style=for-the-badge)
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+## Description
+This project involves creating a testimonial management system using Laravel. Users can add, view, edit status, and delete testimonials. Testimonials can be displayed either as cards or in a list view.
 
-## About Laravel
+## Features Implemented
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+1. Testimonial Management: Users can add new testimonials with a title, message, and optional image attachment.
+2. View Testimonials: Testimonials are displayed either as cards or in a list view.
+3. Approve Testimonials: Can approve pending testimonials to change their status from "en_attente" to "approuve".
+4. Delete Testimonials: Can delete testimonials from the system.
+5. Responsive Design: The interface is designed to be responsive, adapting to different screen sizes.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## Technologies Used
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+- Laravel: Used as the PHP framework for building the web application.
+- HTML/CSS: Used for structuring and styling the frontend.
+- Bootstrap 5/ Bootstrap Icons : Used for responsive design and icons.
+- JavaScript/jQuery: Used for client-side interactivity, including dynamic UI updates.
+- MySQL: Used as the database management system for storing testimonials.
 
-## Learning Laravel
+## Installation and Setup
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+1. Clone the repository to your local machine.
+2. Run composer install to install PHP dependencies.
+3. Copy the .env.example file to .env and configure your database settings.
+4. Run php artisan key:generate to generate a new application key.
+5. Run php artisan migrate --seed to migrate the database schema and seed the db.
+6. Start the Laravel development server with php artisan serve.
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+## Usage
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+1. Access the application in your web browser.
+2. Add new testimonials using the provided form.
+3. View testimonials in either card or list view.
+4. Approve, reject or delete testimonials.
 
-## Laravel Sponsors
+## Additional Notes
+I will make more updates to the app and add role management and grow the app in another version.
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+---
 
-### Premium Partners
+## Screenshots
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
+1. Here you'll find the landing page with the form up first.
+![landing page 1 - adding testimonial](https://github.com/NosisAtlas/PHPTest/assets/71009594/5ac66efa-7270-4734-baea-5092e197319e)
 
-## Contributing
+2. Here you'll find the approved testimonials shown as cards
+![landing page 2 - show testimonials as cards](https://github.com/NosisAtlas/PHPTest/assets/71009594/175b3fd1-b7f7-4f21-aec7-3535858d4b39)
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+3. The two buttons to toggle the view from cards to list
+![landing page 2 - show testimonials as list](https://github.com/NosisAtlas/PHPTest/assets/71009594/258dcd92-04d1-42d9-8770-d1506bd56002)
 
-## Code of Conduct
+4. All the testimonials as a list
+![landing page 3 - show testimonials as list](https://github.com/NosisAtlas/PHPTest/assets/71009594/806084b8-f30d-4b95-8d21-7ff2fb757554)
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+5. Handling the approval and rejection or the deletion of the testimonials
+![landing page 4 - handling approve and reject](https://github.com/NosisAtlas/PHPTest/assets/71009594/c868b6ca-21b5-4657-ac85-53456c84b0e4)
 
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+6. Once you click on a row you can drag an drop it on the Y axis and change the order of the testimonials
+![landing page 5 - drag and drop](https://github.com/NosisAtlas/PHPTest/assets/71009594/47dfada8-a32e-43c7-8813-de563c5055e6)
