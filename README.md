@@ -1,6 +1,6 @@
 ![💻 PHP_Test](https://github.com/NosisAtlas/PHPTest/assets/71009594/21e18680-0142-464b-898b-5d2fc823d708)
 
-![GitHub last commit (branch)](https://img.shields.io/github/last-commit/NosisAtlas/https%3A%2F%2Fgithub.com%2FNosisAtlas%2FPHPTest.git/main)
+![GitHub last commit (branch)](https://img.shields.io/github/last-commit/NosisAtlas/PHPTest/main)
 
 ## Description
 This project involves creating a testimonial management system using Laravel. Users can add, view, edit status, and delete testimonials. Testimonials can be displayed either as cards or in a list view.
